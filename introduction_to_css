@@ -1,0 +1,7 @@
+CSS stands for cascade style sheet
+By css , we can stylize our webpage with colors, themes etc.
+we can use css in 3 ways:
+    1. inline
+    2. internal
+    3. external
+we have to call by id's and classes
