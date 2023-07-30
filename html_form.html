@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html forms</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="User">Username</label></td>
+          <td><input type="text" id="user" name="user" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input type="password" name="password" id="pass" /></td>
+        </tr>
+        <tr>
+          <td><label>Gender</label></td>
+          <td>
+            Male: <input type="radio" name="gender" value="Male" />| Female:
+            <input type="radio" name="gender" value="Female" />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Skills</label></td>
+          <td>
+            HTML: <input type="checkbox" value="html" name="html" />| CSS
+            <input type="checkbox" value="CSS" name="css" /> | Python:
+            <input type="checkbox" value="Python" name="Python" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="country">Select your country</label></td>
+          <td>
+            <select id="country" name="country">
+              <option value="">Select your country</option>
+              <option value="In">India</option>
+              <option value="Fr">France</option>
+              <option value="Cn">Canada</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Click to submit" name="submit_form" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
