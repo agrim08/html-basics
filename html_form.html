@@ -5,7 +5,7 @@
     <style>
         form{
             width:500px;
-            background-color: gold;
+            background-color:lightcyan;
             padding: 20px;
             border: 2px solid black;
             margin: 0 auto;
@@ -21,10 +21,14 @@
             border: 2px solid black;
         }
         input[type="submit"]{
-            background-color: silver;
+            background-color: lightpink;
             color: black;
             border: 2px solid black;
             
+        }
+        input[type="text"] : focus{
+            background:grey;
+
         }
     </style>
   </head>
@@ -49,9 +53,9 @@
         <tr>
           <td><label>Skills</label></td>
           <td>
-            HTML: <input type="checkbox" value="html" name="html" /><br> CSS
-            <input type="checkbox" value="CSS" name="css" /> <br> Python:
-            <input type="checkbox" value="Python" name="Python" />
+            HTML: <input type="checkbox" value="html" name="html" /><br> CSS:
+            <input type="checkbox" value="CSS" name="CSS" /> <br> PHP:
+            <input type="checkbox" value="PHP" name="PHP" />
           </td>
         </tr>
         <tr>
@@ -70,7 +74,7 @@
             <td><label for="comments">comments</label></td>
             <td><textarea name="" id="" cols="50" rows="10"></textarea></td>
         </tr>
-          <td style="text-align: center;">
+          <td>
             <input type="submit" value="Click to submit" name="submit_form" />
           </td>
         </tr>
