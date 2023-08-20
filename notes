@@ -1,0 +1,4 @@
+"em" is the relative unit which only works according to font size of parent item.
+font size=10px
+width=2em
+that means width = 2*font size = 20px

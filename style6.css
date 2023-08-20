@@ -1,0 +1,30 @@
+html {
+  background-color: burlywood;
+  padding: 30px;
+}
+head {
+  background-color: silver;
+  padding: 10px;
+}
+h1 {
+  background-color: darkgrey;
+  padding: 15px;
+  margin: 20px;
+}
+nav {
+  background-color: bisque;
+  padding: 10px;
+  margin: 20px;
+}
+body {
+  background-color: darksalmon;
+  padding: 10px;
+}
+div {
+  background-color: pink;
+  margin: 20px;
+  /* display: inline; */
+  display: inline-block;
+  /* display: none; */
+  width: 200px;
+}
