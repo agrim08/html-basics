@@ -14,7 +14,11 @@ a {
 }
 search {
   margin-left: 150px;
+  font-size: 25px;
 }
 #one {
   margin: 0;
+}
+button {
+  font-size: 15px;
 }
